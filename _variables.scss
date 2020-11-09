@@ -1,0 +1,22 @@
+
+%parallax-settings {
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 100px;
+}
+
+%waterEffectonMainText {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #64646490;
+    background-image: url(./images/whitewater.png);
+    background-size: 400px 90px;
+    -webkit-background-clip: text;
+    animation: water 15s infinite;
+}
